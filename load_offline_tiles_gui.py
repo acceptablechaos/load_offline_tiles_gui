@@ -1,3 +1,6 @@
+# Gui to work as a companion to the TkinterMapView built by TomSchimansky
+# https://github.com/TomSchimansky/TkinterMapView
+
 import tkintermapview
 import tkinter as tk
 import os
@@ -34,10 +37,6 @@ def ShowMe():
   grid1 = (clean1,clean2)
   grid2 = (clean3,clean4)
   level = eval(zooms)
-  print(grid1)
-  print(grid2)
-  print(file_name)
-  print(level)
  
 # specify the region to load (New York City)
   top_left_position = (grid1)
